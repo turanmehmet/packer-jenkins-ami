@@ -21,7 +21,11 @@
       {
       "type": "shell",
           "script": "files/script.sh"
+          },
+          {
+            "type": "breakpoint",
+            "note": "Check Jenkins(port 8080). Press enter to delete the instance"
           }
-       ]
+        ]
 }
   
