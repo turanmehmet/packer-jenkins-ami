@@ -19,6 +19,12 @@
     }],
     "provisioners": [
       {
+        "type": "file",
+           "source": "files/variables.json",
+            "destination": "/tmp/"
+        },
+  
+      {
       "type": "shell",
           "script": "files/script.sh"
           },
